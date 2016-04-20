@@ -3,7 +3,7 @@ function PostsShowController ($location, $http, $routeParams) {
   var vm = this;
   vm.post = {};
   get();
-  
+
   function get() {
     $http({
       method: 'GET',
